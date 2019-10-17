@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: green;
+}
+
+/* Layout */
+.ba-container {
+  background-color: #fff;
+  width: 81vmin;
+  height: 81vmin;
+  margin: 5% auto;
+  border: 5px solid black;
+  position: relative;
+}
+
+.square :first-child,
+.square :last-child {
+  background-color: #000;
+}
+.a {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.b {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+.c {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.d {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
