@@ -12,11 +12,17 @@ body {
 /* Layout */
 .ba-container {
   background-color: #fff;
-  width: 81vmin;
-  height: 81vmin;
+  width: 80vmin;
+  height: 80vmin;
   margin: 5% auto;
-  border: 5px solid black;
+  border: 4px solid black;
   position: relative;
+}
+
+div {
+  width: 50%;
+  height: 50%;
+  position: absolute;
 }
 
 .square :first-child,
@@ -24,30 +30,18 @@ body {
   background-color: #000;
 }
 .a {
-  width: 50%;
-  height: 50%;
-  position: absolute;
   top: 0;
   left: 0;
 }
 .b {
-  width: 50%;
-  height: 50%;
-  position: absolute;
   top: 0;
-  left: 50%;
+  right: 0;
 }
 .c {
-  width: 50%;
-  height: 50%;
-  position: absolute;
-  top: 50%;
+  bottom: 0;
   left: 0;
 }
 .d {
-  width: 50%;
-  height: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  bottom: 0;
+  right: 0;
 }
